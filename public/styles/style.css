@@ -1,0 +1,95 @@
+#intro { 
+   
+    background: url("/images/spotify-background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+
+#intro div {
+    width: 800px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#intro button{
+    background-color: #FB6862; 
+    border: none;
+    color: white;
+    height: 30px;
+    margin: 10px;
+}
+
+#intro input{
+    background-color: white; 
+    border: 1px grey;
+    color: darkgrey;
+    height: 30px;
+    width: 600px;
+    margin: 10px;
+}
+
+a {
+    text-decoration:none ;
+    color: white;
+}
+
+.allCards { 
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px; 
+    background-color: darkgrey;  
+    margin: 30px;
+}
+
+.card img {
+    height: 400px;
+    object-fit: cover; 
+}
+
+.card button { 
+    background-color: #FB6862; 
+    border: none;
+    color: white;
+    height: 40px;
+    width: 130px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.card h2 { 
+    border: none;
+    color: white;
+    height: 40px; 
+    margin: 5px; 
+    font-size: 25px;
+}
+ 
+
+.tracks {
+    display: flex;
+    flex-direction: column;
+
+}
